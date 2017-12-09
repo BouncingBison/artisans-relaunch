@@ -1,0 +1,73 @@
+@import '../../components/variables.scss';
+
+/* GRID DEFINITION x */
+.root {
+  width:100%;
+}
+
+/* STYLING */
+.container {
+  width:100%;
+  min-height: 50rem;
+  background-image: url("./theArtisan.jpeg");
+  background-size: contain;
+  background-repeat: no-repeat;
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+  grid-template-rows: 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
+}
+
+.findButton{
+  grid-column: 2 / span 1;
+  grid-row: 1;
+}
+
+h1 {
+  font-family: $font-family-base;
+  margin: 0px;
+  font-weight: 100;
+  font-size: 4rem;
+}
+
+.banner {
+  padding: 30px 0px;
+  text-align: center;
+  background: #954627; /* Warm Brown */
+}
+
+.bannerTitle {
+  color: #FFF;
+
+}
+
+.bannerDesc {
+  color: rgba(255, 255, 255, .25);
+  font-size: 1.25em;
+}
+
+/* LINK STYLING */
+.link {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link,
+.link:active,
+.link:visited{
+  color: rgba(0, 0, 0, .5);
+}
+
+.link:hover {
+  color: rgba(0, 0, 0, 1);
+}
+
+.highlight {
+  padding: 25px;
+  border-radius: 5px;
+  background: rgba(135, 206, 250, .7);
+  color: #fff;
+}
+
+.highlight:hover {
+  background: rgba(135, 206, 250, 1);
+}

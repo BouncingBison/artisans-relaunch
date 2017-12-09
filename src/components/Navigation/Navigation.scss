@@ -1,0 +1,69 @@
+/* GRID DEFINITION */
+.root {
+  padding-top: 10px;
+  padding-bottom: 12px;
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+}
+
+.homeNav {
+  padding-left: 5px;
+  grid-column: 1 / span 2;
+  grid-row: 1;
+}
+
+.findReview {
+  padding-top: 10px;
+  grid-column: 5 / span 4;
+  grid-row: 1;
+}
+
+.logInSignIn {
+  padding-top: 10px;
+  grid-column: 11 / span 2;
+  grid-row: 1;
+}
+
+/* BRAND STYLING */
+a {
+  vertical-align: middle;
+}
+
+.brand {
+  color: #87CEFA;  /* Light Sky Blue */
+  text-decoration: none;
+  font-size: 18px;
+  padding-top: 7px;
+}
+
+.brandTxt {
+  padding-top: 10px;
+  padding-left: 5px;
+}
+
+/* LINK STYLING */
+.link {
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.link,
+.link:active,
+.link:visited{
+  color: rgba(255, 255, 255, .6);
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 1);
+}
+
+.highlight {
+  padding: 10px;
+  border-radius: 3px;
+  background: rgba(0, 0, 0, .5);
+  color: #fff;
+}
+
+.highlight:hover {
+  background: rgba(0, 0, 0, .3);
+}

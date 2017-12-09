@@ -1,0 +1,44 @@
+@import '../variables.scss';
+
+/* GRID DEFINITION */
+html{
+}
+.root {
+  background: #481D0C;
+  color: #fff;
+  height:100%;
+}
+.container {
+  padding: 20px 15px;
+  text-align: center;
+}
+
+.text {
+  color: #87CEFA;  /* Light Sky Blue */
+}
+
+.textMuted {
+  composes: text;
+  color: rgba(255, 255, 255, .3);
+}
+
+.spacer {
+  color: rgba(255, 255, 255, .3);
+}
+
+.text,
+.link {
+  padding: 2px 5px;
+  font-size: 1em;
+}
+
+.link,
+.link:active,
+.link:visited {
+  color: rgba(255, 255, 255, .6);
+  text-decoration: none;
+}
+
+.link:hover {
+  color: rgba(255, 255, 255, 1);
+}

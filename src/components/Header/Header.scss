@@ -1,0 +1,13 @@
+@import '../variables.scss';
+
+/* GRID DEFINITION */
+.root{
+  display: grid;
+  grid-template-columns: repeat(12, [col-start] 1fr);
+  background: #481D0C; /* Dark Brown */
+  color: #fff;
+}
+
+.container{
+  grid-column: col-start / span 12;
+}

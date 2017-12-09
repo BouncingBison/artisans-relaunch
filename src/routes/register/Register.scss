@@ -1,0 +1,22 @@
+/**
+ * Notes
+ */
+
+@import '../../components/variables.scss';
+
+.root {
+  padding-left: 20px;
+  padding-right: 20px;
+}
+
+.container {
+  min-height: 50rem;
+  background: rgba(255,245,238,0.5); /* rgba of #FFF5EE Sea Shell */
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+
+.title {
+  padding: 15px;
+  text-align: center;
+}
